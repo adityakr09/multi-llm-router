@@ -11,9 +11,9 @@
 
 ## 🖼️ Screenshots
 
-![Multi-LLM Router Demo](assets/demo2.png)
+![Multi-LLM Router Demo](demo2.png)
 
-![Multi-LLM Router UI](assets/demo1.png)
+![Multi-LLM Router UI](demo1.png)
 
 ---
 
