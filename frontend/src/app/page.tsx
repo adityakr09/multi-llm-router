@@ -1,10 +1,7 @@
 "use client";
-
 import { useState } from "react";
 import { ChatResponse, ModelResponse, PROVIDERS } from "@/types";
-
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
-
 const PROVIDER_STYLES: Record<string, { color: string; bg: string; border: string }> = {
   Groq: {
     color: "#f97316",
@@ -17,11 +14,12 @@ const PROVIDER_STYLES: Record<string, { color: string; bg: string; border: strin
     border: "rgba(79,142,247,0.25)",
   },
   OpenAI: {
-    color: "#22d3a0",
-    bg: "rgba(34,211,160,0.07)",
-    border: "rgba(34,211,160,0.25)",
+    color: "#a855f7",
+    bg: "rgba(168,85,247,0.07)",
+    border: "rgba(168,85,247,0.25)",
   },
 };
+
 
 function TokenBar({ label, value, max, color }: { label: string; value: number; max: number; color: string }) {
   const pct = max > 0 ? Math.round((value / max) * 100) : 0;
