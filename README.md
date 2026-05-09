@@ -1,4 +1,4 @@
-# ⚡ Multi-LLM Router
+<img width="1918" height="893" alt="Demo_1" src="https://github.com/user-attachments/assets/6eecfba4-5caa-4fac-937c-1ce364ee2653" /># ⚡ Multi-LLM Router
 
 > Query **Groq Llama 3**, **Google Gemini**, and **OpenAI GPT-4o Mini** simultaneously — compare responses, track token usage, and measure real-time cost per query.
 
@@ -8,6 +8,12 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript)](https://typescriptlang.org)
 
 **[🚀 Live Demo](your-vercel-url-here)** · **[📖 API Docs](your-railway-url/docs)**
+
+## 🖼️ Screenshots
+
+![Multi-LLM Router Demo](assets/demo2.png)
+
+![Multi-LLM Router UI](assets/demo1.png)
 
 ---
 
