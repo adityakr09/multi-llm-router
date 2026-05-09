@@ -44,7 +44,7 @@ export const PROVIDERS: ProviderConfig[] = [
     key: "openai",
     label: "OpenRouter",
     model: "Llama 3.3 70B Free",
-    color: "#10b981",
-    accent: "#064e3b",
+    color: "#a855f7",      
+    accent: "#3b0764",
   },
 ];
